@@ -14,4 +14,4 @@ const Gif = (props) => {
     );
 }
 
-export default Gif
+export default Gif;
