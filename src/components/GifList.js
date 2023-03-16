@@ -7,10 +7,12 @@ import Gif from "./Gif";
 const GifList = props => {
     const { gifs } = props;
 
+    3
+
     return (
         <div id="gifList">
             {gifs.map(gif => {
-                return (<Gif gif={gif} />);
+                return (<Gif gif={gif} key={gif.id} />);
             })}
         </div>
     );
